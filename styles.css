@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body{
+  font-family: Indie Flower;
+  font-size: 24px;
+  background: url(pubg.jpg);
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+  height: 100%;
+  opacity: 1.5;
+  color: white;
+}
+body:before{
+  
+  z-index: -1;
+}
+
+.cab{
+  display: flex;
+ justify-content: space-between;
+}
+#header-img{
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px gray;
+}
+#form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titl{
+  text-align: justify;
+}
+.button{
+width: 300px;
+height: 50px;
+border: 2px solid yellow;
+
+background-color: rgb(253, 253, 138);
+border-radius: 2.5%;
+box-shadow: 2px 2px 5px rgb(248, 214, 150);
+font-family: Indie Flower;
+font-size: 24px;
+}
+.email{
+width: 350px;
+height: 50px;
+font-family: Indie Flower;
+font-size: 24px;
+}
+#Tienda{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .column{
+    text-align: justify;
+    width: 500px;
+  }
+  #Plataformas{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .plataforma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+  
+  
+  #mobile{
+    border: 1px  solid black;
+    text-align: center;
+    
+  }
+  #Pc{
+border: 1px  solid black;
+text-align: center;
+
+  }
+  #Consola{
+    border: 1px solid black;
+    text-align: center;
+   
+  }
+  .req{
+    background-color: black;
+    width: 100%;
+  }
+  .bot{
+    background-color: yellow;
+    font-family: Indie Flower;
+    border: 2px solid yellow;
+    border-radius: 5%;
+    box-shadow: 2px 2px 4px rgb(255, 220, 156);
+  }
+  #Quienes-Somos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    margin: 20px;
+    margin-bottom: 5px
+    line-height= 5px;
+  }
+  footer{
+    background-color: rgb(209, 209, 209);
+    list-style: none;
+     
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    margin-top: 30px;
+    padding: 20px; 
+  }
+
+
+  .pie{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+  }
+  .re{
+    text-align: justify;
+    list-style-type: none;
+  }
+  @media (max-width: 320px){
+    
+  }
+  .nav-link{
+    text-decoration: none;
+    color:white;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+ 
+  
